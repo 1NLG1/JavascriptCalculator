@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator-grid">
+        <div id="display">
+            <div id="expression"></div>
+            <div id="currentOperand">0</div>
+        </div>
+        <button class="grid-item" onclick="buttonClick('clear')" id="clear">AC</button>
+        <button class="grid-item" onclick="buttonClick('/')" id="division">/</button>
+        <button class="grid-item" onclick="buttonClick('*')" id="multiplication">*</button>
+        <button class="grid-item" onclick="buttonClick('7')" id="seven">7</button>
+        <button class="grid-item" onclick="buttonClick('8')" id="eight">8</button>
+        <button class="grid-item" onclick="buttonClick('9')" id="nine">9</button>
+        <button class="grid-item" onclick="buttonClick('-')" id="subtraction">-</button>
+        <button class="grid-item" onclick="buttonClick('4')" id="four">4</button>
+        <button class="grid-item" onclick="buttonClick('5')" id="five">5</button>
+        <button class="grid-item" onclick="buttonClick('6')" id="six">6</button>
+        <button class="grid-item" onclick="buttonClick('+')" id="addition">+</button>
+        <button class="grid-item" onclick="buttonClick('1')" id="one">1</button>
+        <button class="grid-item" onclick="buttonClick('2')" id="two">2</button>
+        <button class="grid-item" onclick="buttonClick('3')" id="three">3</button>
+        <button class="grid-item" onclick="buttonClick('=')" id="equal">=</button>
+        <button class="grid-item" onclick="buttonClick('0')" id="zero">0</button>
+        <button class="grid-item" onclick="buttonClick('.')" id="decimal">.</button>
+    </div>
+</body>
+</html>
